@@ -1,41 +1,47 @@
-# app-lembretes-saude
-Projeto: App de Lembretes de Saúde
+# 1. Introdução
 
- # 1. Descrição do Projeto
+A manutenção de hábitos saudáveis é um desafio constante no cotidiano moderno. Muitas pessoas esquecem de realizar tarefas simples, mas essenciais para o bem-estar, como tomar medicamentos, beber água regularmente ou praticar exercícios físicos. Nesse contexto, soluções digitais podem desempenhar um papel importante ao auxiliar na organização e acompanhamento dessas atividades.
 
-O App de Lembretes de Saúde é uma aplicação web desenvolvida para auxiliar os usuários a manterem uma rotina mais saudável. O sistema permitirá cadastrar lembretes relacionados a atividades do dia a dia, como tomar medicação, beber água ou praticar exercícios físicos. A ideia é oferecer uma ferramenta simples, acessível e intuitiva que ajude o usuário a organizar seus hábitos de saúde.
+Este trabalho propõe o desenvolvimento de uma aplicação web de lembretes de saúde, que busca oferecer uma ferramenta prática e acessível para apoiar os usuários em sua rotina.
 
-# 2. Problema que será resolvido
+# 2. Justificativa
 
-Muitas pessoas acabam esquecendo tarefas essenciais para sua saúde, como tomar remédios nos horários corretos ou manter a hidratação adequada. Esse esquecimento pode trazer prejuízos à qualidade de vida e até comprometer tratamentos médicos. O app vem como solução para organizar essas tarefas e notificar o usuário de forma prática.
+O Objetivo de Desenvolvimento Sustentável (ODS) 3 – Saúde e Bem-estar da ONU reforça a importância de promover práticas que melhorem a qualidade de vida das pessoas. O aplicativo de lembretes de saúde se alinha a esse objetivo, pois fornece suporte para que os usuários mantenham hábitos mais organizados, reduzindo riscos associados ao esquecimento de tarefas importantes para a saúde.
 
-# 3. Objetivos do Projeto
+Além disso, a proposta foca em uma solução de fácil acesso, compatível com navegadores modernos, sem necessidade de instalação complexa, o que amplia seu alcance e aplicabilidade.
 
-Criar um sistema que auxilie os usuários a não esquecer compromissos com a própria saúde.
+# 3. Objetivos
+#  3.1 Objetivo Geral
 
-Oferecer uma interface simples e intuitiva para gerenciar lembretes.
+Desenvolver uma aplicação web que permita aos usuários cadastrar, gerenciar e acompanhar lembretes de saúde de forma simples e eficaz.
 
-Garantir que o usuário possa registrar, acompanhar e concluir lembretes de forma rápida.
+#  3.2 Objetivos Específicos
 
-Facilitar a adoção de hábitos saudáveis no dia a dia por meio de notificações.
+Implementar uma interface intuitiva que facilite o uso do sistema.
 
-# 4. Tipo de Solução
+Permitir o cadastro e autenticação de usuários de forma segura.
 
-A solução proposta é uma aplicação web fullstack, composta por:
+Disponibilizar funcionalidades de criação, edição, exclusão e visualização de lembretes.
 
-Frontend: interface em HTML, CSS e JavaScript (ou React, caso seja necessário mais dinamismo).
+Oferecer notificações simples que ajudem a manter a disciplina em atividades relacionadas à saúde.
 
-Backend: API em Node.js com Express, responsável pela autenticação e CRUD de lembretes.
+# 4. Problema de Pesquisa
 
-Banco de dados: SQLite (mais simples) ou MongoDB (para maior escalabilidade).
+O esquecimento de atividades relacionadas à saúde compromete o bem-estar e pode gerar impactos negativos a médio e longo prazo. A questão central é: como auxiliar os usuários na organização de tarefas de saúde por meio de um sistema simples e acessível?
 
-# 5. Requisitos do Projeto
+# 5. Metodologia
 
-#   Requisitos funcionais
+A solução será desenvolvida como uma aplicação web fullstack, composta por:
+
+Frontend: HTML, CSS e JavaScript (ou React, para maior dinamismo).
+
+Backend: Node.js com Express, responsável pela autenticação e pelo gerenciamento dos lembretes.
+
+#  5.1 Requisitos Funcionais
 
 Registrar usuário.
 
-Fazer login/logout.
+Realizar login e logout.
 
 Criar lembrete.
 
@@ -49,18 +55,18 @@ Visualizar lista de lembretes.
 
 Receber notificações simples.
 
-#   Requisitos não funcionais
+#  5.2 Requisitos Não Funcionais
 
-Segurança: armazenar senhas de forma criptografada.
+Segurança: criptografia de senhas.
 
-Performance: carregar a lista de lembretes em até 2 segundos.
+Performance: carregamento da lista de lembretes em até 2 segundos.
 
-Usabilidade: interface intuitiva e responsiva.
+Usabilidade: interface simples e intuitiva.
 
-Compatibilidade: rodar em navegadores modernos.
+Compatibilidade: suporte a navegadores modernos.
 
-Escalabilidade: permitir a adição de novos tipos de lembretes futuramente.
+Escalabilidade: capacidade de expandir para novos tipos de lembretes.
 
-Visualizar lista de lembretes.
+# 6. Resultados Esperados
 
-Receber notificações de lembretes.
+Espera-se que a aplicação possibilite aos usuários maior controle sobre suas tarefas de saúde, contribuindo para a adoção de hábitos mais saudáveis no dia a dia. Além disso, o projeto busca entregar uma solução de fácil uso, segura e adaptável, que possa evoluir com novas funcionalidades.
